@@ -1,0 +1,61 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+body{
+    background-image: url("../img/fundo.png");
+    background-position: 5% 30%;
+    /*background-repeat: no-repeat;*/
+    font-family: Arial;
+}
+
+h1{ 
+    color:hsl(0, 0%, 3%);    
+    font-size: 70px;
+     /*Mexendo no texto login*/
+}
+input{
+    display: block;
+    height: 55px;
+    width: 400px;
+    margin: 10px;
+    border-radius: 30px;
+    border: 2px solid black;
+    font-size: 16pt;
+    padding: 10px 20px;
+    outline: none;
+    /*border: none;*/ /*sem borda*/
+    /*background-color: rgba(255,255,255,0.01);*/ /*cor transparente*/
+
+}
+div#corpo{
+   /*background-color: red;*/
+    width: 420px;
+    margin: 130px auto 0px auto;
+}
+div#corpo{
+    text-align: center;
+    padding: 20px;
+}
+a{
+    color: black;
+    text-decoration: none;
+    font-family: arial black;
+    text-align: center;
+    display: block;
+    
+}
+a:hover{
+    text-decoration: underline;
+   
+}
+input[type=submit]{
+    background-color: rgb(161, 36, 36);
+    cursor:pointer;
+   
+}
+
+/*::-webkit-input-placeholder {
+    color: rgb(8, 6, 141);
+ } mudar a cor do placeholder/*
+ 
